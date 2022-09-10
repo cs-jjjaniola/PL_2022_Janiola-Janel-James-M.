@@ -7,7 +7,6 @@ class  DFA {
                 String state = "q0";
                 Scanner sc = new Scanner(System.in);
                 String input = sc.nextLine();
-                input.toString();
                 for(int x = 0; x < input.length(); x++) {
                     if (state.equals("q0") && input.charAt(x) == '0') {
 
@@ -34,7 +33,6 @@ class  DFA {
                         System.out.println("Invalid input.. Exiting automaton");
                         break;
                     }
-
 
                 }
                 //check if state is final state
