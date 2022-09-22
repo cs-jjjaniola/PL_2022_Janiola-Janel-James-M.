@@ -17,7 +17,6 @@ public class Lexical_Analyzer_Activity3 {
     }
 
     public static void  checkLexemes(char[] arr) {
-       // int j = 0;
         String tempVal = "";
         String[] s = new String[1000];
 
