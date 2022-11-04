@@ -14,9 +14,9 @@ public class Syntax_Analyzer_ {
                 while ((line = br.readLine()) != null)
                 {
                     if (line.contains(Tokens)) {
-                        System.out.println("Syntax is Correct!");
+                        System.out.println("Syntax is Correct! ");
                     }else{
-                        System.out.println("Syntax is Error!");
+                        System.out.println("Syntax is Error! ");
                     }
                 }
             }catch (Exception e){
