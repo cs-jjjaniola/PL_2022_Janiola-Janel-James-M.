@@ -8,7 +8,7 @@ public class Syntax_Analyzer_ {
         Scanner sc = new Scanner(System.in);
         String Tokens = sc.nextLine();
         try{
-                String line = "";
+                String line = " ";
                 //parsing a CSV file that contains possible correct Syntax into BufferedReader class constructor
                 BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\ADMIN\\IdeaProjects\\NEW_TPL\\Assignment\\src\\CSVDemo.csv"));
                 while ((line = br.readLine()) != null)
