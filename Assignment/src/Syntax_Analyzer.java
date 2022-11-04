@@ -11,7 +11,7 @@ public class Syntax_Analyzer {
                 String line = " ";
                 //parsing a CSV file that contains possible correct Syntax into BufferedReader class constructor
                 BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\ADMIN\\IdeaProjects\\NEW_TPL\\Assignment\\src\\PossibleCorrectSyntax.csv"));
-                while ((line = br.readLine()) != null)
+                while ((line = br.readLine())!=null)
                 {
                     if (line.contains(Tokens)) {
                         System.out.println("Syntax is Correct! ");
