@@ -154,7 +154,6 @@ public class Semantic_Analyzer {
                 System.out.println("Semantically Incorrect!");
             }
 
-
         }catch(NumberFormatException e){
         }
         return " ";
