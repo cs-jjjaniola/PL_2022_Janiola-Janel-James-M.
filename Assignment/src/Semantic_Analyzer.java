@@ -137,7 +137,7 @@ public class Semantic_Analyzer {
                 System.out.println("Semantically Incorrect!");
 
         }catch(NumberFormatException e){
-            //not double
+
         }
 
         return " ";
